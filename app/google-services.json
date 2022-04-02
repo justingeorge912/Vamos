@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945760108731",
+    "project_id": "vamoselectrica-f8c09",
+    "storage_bucket": "vamoselectrica-f8c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945760108731:android:4b4b8932dcc0b30097699e",
+        "android_client_info": {
+          "package_name": "com.example.vamoselectrica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945760108731-0ugnb9vuddlb9nh45lcpqcbjkgd62ihu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk75WY8nLmCCRhRkbOy42qEsT9GCyt5Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945760108731-0ugnb9vuddlb9nh45lcpqcbjkgd62ihu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

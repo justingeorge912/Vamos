@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Vamos Electrica</string>
+
+    <string name="Loginbtn">Login</string>
+    <string name="Ifyou">If you don\'t have an account,</string>
+    <string name="Signuptxt">Sign Up</string>
+    <string name="ByClick">By clicking, I accept the</string>
+    <string name="TC">Terms &amp; Conditions</string>
+    <string name="PrivPol">Privacy Policy</string>
+    <string name="and">&amp;</string>
+    <string name="CustSup">Customer Support</string>
+    <string name="Feedback">Send Feedback</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
