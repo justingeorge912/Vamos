@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/loginimg"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="320dp"
         android:src="@drawable/ic_login"
@@ -19,19 +19,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Logingreyrect" />
-
-    <ImageView
-        android:id="@+id/TncPnP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="40dp"
-        android:src="@drawable/ic_tnc"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/Contimg"
@@ -57,15 +44,17 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_marginStart="154dp"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="154dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="45dp"
         android:fontFamily="@font/manrope"
         android:text="Forgot Password"
         android:textColor="#45CD2E"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +117,7 @@
         android:layout_width="0dp"
         android:layout_height="17dp"
         android:layout_marginStart="55dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="150dp"
         android:fontFamily="@font/manrope"
         android:text="PASSWORD"

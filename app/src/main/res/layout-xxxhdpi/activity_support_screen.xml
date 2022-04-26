@@ -12,6 +12,7 @@
             android:id="@+id/SSgreyrect"
             android:layout_width="411dp"
             android:layout_height="481dp"
+            android:layout_marginTop="-4dp"
             android:src="@drawable/ic_rectangle_support_xxx"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

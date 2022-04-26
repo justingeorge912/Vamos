@@ -20,8 +20,10 @@
 
     <ImageView
         android:id="@+id/whitebg"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="427dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="-2dp"
         android:src="@drawable/ic_rectanglewhite_map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,47 +33,39 @@
         android:id="@+id/letsgoelec"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/ic_letsgoelectric"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="@+id/whitebg"
-        app:layout_constraintTop_toTopOf="@+id/whitebg" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Scanqrimg"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/Scanqrimg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="38dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="180dp"
         android:src="@drawable/ic_group_1_buton"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whitebg" />
 
     <Button
         android:id="@+id/logoutbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="650dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:backgroundTint="@color/white"
         android:text="Logout"
         android:textColor="@color/VamosGreen"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

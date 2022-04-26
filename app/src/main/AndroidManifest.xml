@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VamosElectrica" >
 
+
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -31,14 +32,13 @@
              project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
              "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
         -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAbxoIqQjLIpa3ra3-mA7eRJ_1Rlz5_5U8" />
-
 
         <activity
             android:name=".UserSession"
             android:exported="false" />
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyAbxoIqQjLIpa3ra3-mA7eRJ_1Rlz5_5U8" />
 
         <activity
             android:name=".MapsActivity"
@@ -55,13 +55,12 @@
             android:exported="false" />
         <activity
             android:name=".SupportScreen"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SplashScreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

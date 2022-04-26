@@ -2,6 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.VamosElectrica" parent="Theme.MaterialComponents.NoActionBar">
 
+        <item name="android:windowDisablePreview">true</item>
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/VamosGreen</item>
         <item name="colorPrimaryVariant">@color/DarkVamosGreen</item>
@@ -13,7 +15,10 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-
         <!-- Customize your theme here. -->
     </style>
+
 </resources>
+
+
+<!-- Base application theme is the default theme. -->

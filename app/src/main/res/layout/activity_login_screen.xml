@@ -21,19 +21,6 @@
         app:layout_constraintTop_toBottomOf="@+id/Logingreyrect" />
 
     <ImageView
-        android:id="@+id/TncPnP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="40dp"
-        android:src="@drawable/ic_tnc"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
         android:id="@+id/Contimg"
         android:layout_width="0dp"
         android:layout_height="37dp"
@@ -50,6 +37,7 @@
         android:id="@+id/Logingreyrect"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -59,17 +47,20 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:layout_marginStart="154dp"
+        android:layout_marginStart="164dp"
         android:layout_marginTop="25dp"
-        android:layout_marginEnd="154dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="40dp"
         android:fontFamily="@font/manrope"
         android:text="Forgot Password"
         android:textColor="#45CD2E"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Contimg" />
+        app:layout_constraintTop_toBottomOf="@+id/Contimg"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editText1"

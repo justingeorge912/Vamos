@@ -10,6 +10,7 @@
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_component_3.xml" value="0.212" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_ellipse.xml" value="0.212" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_greyrect.xml" value="0.2075" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_login.xml" value="0.212" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_loginrectangle.xml" value="0.2075" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_loginrectangle1.xml" value="0.212" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_mail.xml" value="0.1935" />
@@ -23,17 +24,18 @@
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_rectangle_support_x_xx.xml" value="0.212" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_rectangle_support_xxx.xml" value="0.212" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/drawable/ic_scooter.xml" value="0.212" />
-        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xhdpi/activity_login_screen.xml" value="0.33" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/font/.xml" value="0.17699871740059855" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xhdpi/activity_login_screen.xml" value="0.22" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xhdpi/activity_maps.xml" value="0.2975630611372381" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xhdpi/activity_register.xml" value="0.33" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xhdpi/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xhdpi/activity_support_screen.xml" value="0.33" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxhdpi/activity_login_screen.xml" value="0.33" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxhdpi/activity_maps.xml" value="0.25" />
-        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxhdpi/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxhdpi/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxhdpi/activity_support_screen.xml" value="0.33" />
-        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxxhdpi/activity_login_screen.xml" value="0.25" />
-        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxxhdpi/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxxhdpi/activity_login_screen.xml" value="0.18" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxxhdpi/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout-xxxhdpi/activity_support_screen.xml" value="0.22" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_login_screen.xml" value="0.22" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_maps.xml" value="0.25" />
@@ -41,7 +43,7 @@
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_scanner.xml" value="0.1470713980333476" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_support_screen.xml" value="0.33" />
-        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_user_session.xml" value="0.18" />
+        <entry key="..\:/Users/Justin/AndroidStudioProjects/VamosElectrica/app/src/main/res/layout/activity_user_session.xml" value="0.22" />
       </map>
     </option>
   </component>

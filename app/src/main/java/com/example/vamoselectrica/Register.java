@@ -62,7 +62,7 @@ public class Register extends AppCompatActivity {
         Registergreyrect=findViewById(R.id.Registergreyrect);
         Signupimg=findViewById(R.id.Signupimg);
         Contimg=findViewById(R.id.Contimg);
-        TncPnP=findViewById(R.id.TncPnP);
+        TncPnP=findViewById(R.id.TnpPnp);
 
         Contimg.setOnClickListener(new View.OnClickListener() {
             @Override

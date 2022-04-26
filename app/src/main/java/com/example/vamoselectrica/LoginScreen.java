@@ -1,9 +1,15 @@
 package com.example.vamoselectrica;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -24,6 +30,8 @@ public class LoginScreen extends AppCompatActivity {
     ImageView loginimg, Logingreyrect, TncPnP, Contimg;
     FirebaseAuth firebaseAuth;
 
+    static final int REQUEST_CODE = 123;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +50,7 @@ public class LoginScreen extends AppCompatActivity {
 
         loginimg=findViewById(R.id.loginimg);
         Logingreyrect=findViewById(R.id.Logingreyrect);
-        TncPnP=findViewById(R.id.TncPnP);
+        //TncPnP=findViewById(R.id.TncPnP);
         Contimg=findViewById(R.id.Contimg);
 
 
@@ -50,13 +58,14 @@ public class LoginScreen extends AppCompatActivity {
         Contimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 //extract and validate
-                if(editText1.getText().toString().isEmpty()) {
+                if (editText1.getText().toString().isEmpty()) {
                     editText1.setError("Email is Required");
                     return;
                 }
 
-                if(editText2.getText().toString().isEmpty()){
+                if (editText2.getText().toString().isEmpty()) {
                     editText1.setError("Password is Required");
                     return;
                 }
@@ -67,8 +76,60 @@ public class LoginScreen extends AppCompatActivity {
                     @Override
                     public void onSuccess(AuthResult authResult) {
                         //Login Is successful
-                        startActivity(new Intent(getApplicationContext(),MapsActivity.class));
-                        finish();
+
+                        {
+                            //Request Permission
+                            //Check permission
+                            if (ContextCompat.checkSelfPermission(LoginScreen.this, Manifest.permission.CAMERA) +
+                                    ContextCompat.checkSelfPermission(LoginScreen.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                                // Permission not available
+                                if (ActivityCompat.shouldShowRequestPermissionRationale(LoginScreen.this, Manifest.permission.CAMERA) ||
+                                        ActivityCompat.shouldShowRequestPermissionRationale(LoginScreen.this, Manifest.permission.ACCESS_FINE_LOCATION)) {
+                                    //Create alert dialog if denied earlier
+                                    AlertDialog.Builder builder = new AlertDialog.Builder(
+                                            LoginScreen.this
+                                    );
+                                    builder.setTitle("Please Grant Permissions");
+                                    builder.setMessage("To sign in, Camera and location permissions are required");
+                                    builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialogInterface, int i) {
+                                            ActivityCompat.requestPermissions(
+                                                    LoginScreen.this,
+                                                    new String[]{
+                                                            Manifest.permission.CAMERA,
+                                                            Manifest.permission.ACCESS_FINE_LOCATION
+                                                    },
+                                                    REQUEST_CODE
+                                            );
+                                        }
+                                    });
+                                    builder.setNegativeButton("Cancel", null);
+                                    AlertDialog alertDialog = builder.create();
+                                    alertDialog.show();
+                                }
+                                //Asking for pemission first time
+                                else {
+                                    ActivityCompat.requestPermissions(
+                                            LoginScreen.this,
+                                            new String[]{
+                                                    Manifest.permission.CAMERA,
+                                                    Manifest.permission.ACCESS_FINE_LOCATION
+                                            },
+                                            REQUEST_CODE
+                                    );
+                                }
+                            }
+                            //If permission granted
+                            else
+                            {
+                                startActivity(new Intent(getApplicationContext(), MapsActivity.class));
+                                finish();
+                            }
+                        }
+
+
+
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
