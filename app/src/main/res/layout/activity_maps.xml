@@ -22,6 +22,9 @@
         android:id="@+id/whitebg"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="-60dp"
         android:src="@drawable/ic_rectanglewhite_map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +49,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="176dp"
         android:src="@drawable/ic_group_1_buton"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whitebg" />
 
     <Button
         android:id="@+id/logoutbtn"

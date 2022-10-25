@@ -12,12 +12,13 @@ import android.view.WindowManager;
 public class SplashScreen extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.P)
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        //getSupportActionBar().hide();
+        //For full screen:
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         Thread thread = new Thread(){
@@ -34,7 +35,7 @@ public class SplashScreen extends AppCompatActivity {
                     finish();
                 }
             }
-        };thread.start();
+       };thread.start();
 
     }
 }
